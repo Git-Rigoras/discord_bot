@@ -5,6 +5,6 @@ module.exports = {
         .setName('ping')
         .setDescription('the most basic test command'),
     async execute(interaction) {
-        await interaction.reply("Pong !");
+        await interaction.reply("Pooooong !")
     },
-};
+}
