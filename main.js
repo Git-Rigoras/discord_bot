@@ -1,4 +1,5 @@
 require("dotenv").config()
+require("./deploy_commands.js")
 const fs = require('fs');
 const { Client, Collection, Intents } = require('discord.js');
 const guildId = process.env.GUILD_ID
